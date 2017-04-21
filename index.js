@@ -71,9 +71,6 @@ var generateConfirmMessage = function(message) {
   var eventName = text[1].trim();
   var location = text[5].trim();
   var datetime = text[3].trim()
-  var day = datetime[0];
-  var time = datetime[2];
-
 
   console.log(eventName);
   console.log(location);
